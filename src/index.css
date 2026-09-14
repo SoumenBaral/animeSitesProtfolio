@@ -6,3 +6,9 @@
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
   --font-display: "Space Grotesk", sans-serif;
 }
+
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: #080a12; }
+button, input { font: inherit; }
+.fade-enter-active, .fade-leave-active { transition: opacity .2s ease, transform .2s ease; }
+.fade-enter-from, .fade-leave-to { opacity: 0; transform: translateY(8px); }
